@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+}
+
+ul {
+  background-color: #1a1c1d;
+  color: white;
+  display: flex;
+  padding: 13px;
+  align-items: baseline;
+}
+
+.navbar {
+  font-size: 1.3em;
+  padding: 5px;
+}
+
+.home {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-size: 1em;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+  padding: 5px;
+  font-size: 1em;
+}
+
+.btn-dropdown {
+  background-color: transparent;
+  border: none;
+  font-size: 1em;
+  color: white;
+  opacity: 0.7;
+  padding: 13px;
+}
+.arrow {
+  border: solid white;
+  opacity: 0.7;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: 3px;
+  transform: rotate(45deg);
+}
+
+.btn-disabled {
+  background-color: transparent;
+  border: none;
+  font-size: 1em;
+  color: white;
+  opacity: 0.4;
+  padding: 10px;
+}
+
+.search-bar {
+  margin-left: 1000px;
+}
+
+.text-bar {
+  padding: 7px 10px;
+  border-radius: 6px;
+  border-color: white;
+  font-size: 0.9em;
+}
+
+.btn-search {
+  background-color: transparent;
+  border-color: rgb(32, 107, 68);
+  font-size: 0.9em;
+  color: rgb(32, 107, 68);
+  padding: 7px 10px;
+  border-radius: 6px;
+  border: 2px solid;
+}
+
+.btn-search:hover {
+  background-color: rgb(32, 107, 68);
+  color: white;
+}
